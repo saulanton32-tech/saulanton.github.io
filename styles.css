@@ -166,6 +166,14 @@ nav {
 .book-card { margin-bottom: 2.25rem; }
 .book-card:last-child { margin-bottom: 0; }
 
+.book-card a {
+    text-decoration: none;
+    display: block;
+    transition: opacity 0.2s;
+}
+
+.book-card a:hover { opacity: 0.8; }
+
 .book-cover {
     width: 100%;
     aspect-ratio: 3/4;
